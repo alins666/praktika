@@ -19,6 +19,7 @@ public class Program
         }
     }
 } */
+
 /* №2 
 namespace ConsoleApp1;
 public class Program 
@@ -39,6 +40,7 @@ public class Program
         }
     }
 } */
+
 /* №3
 using System.Collections;
 namespace ConsoleApp1;
@@ -71,7 +73,8 @@ public class Program
         }
     }
 } */
-/* №4
+ 
+/*№4
  static double[] AvgTemp(int[,] temps)
 {
    double[] avgMonthTemp = new double[12];
@@ -124,7 +127,9 @@ foreach (var m in avg)
    Console.WriteLine(m);
 }*/
 
-static Dictionary<string, double> AvgTemp(Dictionary<string, int[]> temps)
+ 
+   static Dictionary<string, double> AvgTemp(Dictionary<string, int[]> temps)
+  
 {
     Dictionary<string, double> avgMonthTemp = new Dictionary<string, double>()
     {
@@ -207,4 +212,4 @@ foreach (var m in avgTemp)
 {
     Console.Write(m.Key + ": ");
     Console.WriteLine(m.Value);
-}
+} 
