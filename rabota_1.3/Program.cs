@@ -52,7 +52,7 @@ StreamWriter writer = new StreamWriter("nums.txt", false);
 writer.Write(allNums);
 writer.Close();*/
 
-string[] height  = File.ReadAllLines("nnn.txt");
+/*string[] height  = File.ReadAllLines("nnn.txt");
 string[] num = height [0].Split(' ');
 int max = Convert.ToInt32(0);
 int min = Convert.ToInt32(0);

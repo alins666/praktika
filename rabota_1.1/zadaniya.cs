@@ -99,4 +99,3 @@ Console.WriteLine(probel);
 Console.WriteLine($"Start {str} End");
 */
 
-Console.WriteLine();

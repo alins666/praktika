@@ -128,7 +128,7 @@ foreach (var m in avg)
 }*/
 
  
-   static Dictionary<string, double> AvgTemp(Dictionary<string, int[]> temps)
+ /*  static Dictionary<string, double> AvgTemp(Dictionary<string, int[]> temps)
   
 {
     Dictionary<string, double> avgMonthTemp = new Dictionary<string, double>()
