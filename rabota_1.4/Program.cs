@@ -108,3 +108,20 @@ else
 {
     Console.WriteLine("Точка с не принадлежит заштрихованной области!");
 }*/
+/*№6
+ Console.WriteLine("Введите координаты точек a, b: ");
+float a = Convert.ToSingle(Console.ReadLine()); 
+float b = Convert.ToSingle(Console.ReadLine()); 
+float x1 = -2; float x2 = 0; float x3 = 2; 
+float y1 = -3; float y2 = 2; float y3 = -3; 
+float d = (x1 - a) * (y2 - y1) - (x2 - x1) * (y1 - b); 
+float e = (x2 - a) * (y3 - y2) - (x3 - x2) * (y2 - b); 
+float f = (x3 - a) * (y1 - y3) - (x1 - x3) * (y3 - b); 
+if ((d >= 0 && e >= 0 && f >= 0) || (d <= 0 && e <= 0 && f <= 0)) 
+{ 
+    Console.WriteLine("Принадлежит треугольнику"); 
+} 
+else 
+{ 
+    Console.WriteLine("Не принадлежит треугольнику"); 
+}*/

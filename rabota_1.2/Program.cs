@@ -127,56 +127,57 @@ foreach (var m in avg)
    Console.WriteLine(m);
 }*/
 
+/* №5 
  
- /*  static Dictionary<string, double> AvgTemp(Dictionary<string, int[]> temps)
-  
+ static Dictionary<string, double> AvgTemp(Dictionary<string, int[]> temps)
+ 
 {
-    Dictionary<string, double> avgMonthTemp = new Dictionary<string, double>()
-    {
-        { "Январь", 0 },
-        { "Февраль", 0 },
-        { "Март", 0 },
-        { "Апрель", 0 },
-        { "Май", 0 },
-        { "Июнь", 0 },
-        { "Июль", 0 },
-        { "Август", 0 },
-        { "Сентябрь", 0 },
-        { "Октябрь", 0 },
-        { "Ноябрь", 0 },
-        { "Декабрь", 0 }
-    };
-    float sum = 0;
+   Dictionary<string, double> avgMonthTemp = new Dictionary<string, double>()
+   {
+       { "Январь", 0 },
+       { "Февраль", 0 },
+       { "Март", 0 },
+       { "Апрель", 0 },
+       { "Май", 0 },
+       { "Июнь", 0 },
+       { "Июль", 0 },
+       { "Август", 0 },
+       { "Сентябрь", 0 },
+       { "Октябрь", 0 },
+       { "Ноябрь", 0 },
+       { "Декабрь", 0 }
+   };
+   float sum = 0;
 
-    int nm = 0;
-    foreach (var month in temps)
-    {
-        sum = 0;
-        for (int i = 0; i < 30; i++)
-        {
-            sum = sum + temps[month.Key][i];
-        }
-        avgMonthTemp[month.Key] = Math.Round(sum / 30, 1);
-        nm++;
-    }
+   int nm = 0;
+   foreach (var month in temps)
+   {
+       sum = 0;
+       for (int i = 0; i < 30; i++)
+       {
+           sum = sum + temps[month.Key][i];
+       }
+       avgMonthTemp[month.Key] = Math.Round(sum / 30, 1);
+       nm++;
+   }
 
-    return avgMonthTemp;
+   return avgMonthTemp;
 }
 
 Dictionary<string, int[]> temperature = new Dictionary<string, int[]>()
 {
-    {"Январь", new int[30]},
-    {"Февраль", new int[30]},
-    {"Март", new int[30]},
-    {"Апрель", new int[30]},
-    {"Май", new int[30]},
-    {"Июнь", new int[30]},
-    {"Июль", new int[30]},
-    {"Август", new int[30]},
-    {"Сентябрь", new int[30]},
-    {"Октябрь", new int[30]},
-    {"Ноябрь", new int[30]},
-    {"Декабрь", new int[30]}
+   {"Январь", new int[30]},
+   {"Февраль", new int[30]},
+   {"Март", new int[30]},
+   {"Апрель", new int[30]},
+   {"Май", new int[30]},
+   {"Июнь", new int[30]},
+   {"Июль", new int[30]},
+   {"Август", new int[30]},
+   {"Сентябрь", new int[30]},
+   {"Октябрь", new int[30]},
+   {"Ноябрь", new int[30]},
+   {"Декабрь", new int[30]}
 };
 
 int min = -30;
@@ -187,29 +188,29 @@ Random rand = new Random();
 
 foreach (var month in temperature)
 {
-    for (int i = 0; i < 30; i++)
-    {
-        temperature[month.Key][i] = rand.Next(min, max);
-    }
-   
-    if (nm<6)
-    {
-        min = min + x;
-        max = max + x;
-    }
-    else 
-    {
-        min = min - x;
-        max = max - x;
-    }
+   for (int i = 0; i < 30; i++)
+   {
+       temperature[month.Key][i] = rand.Next(min, max);
+   }
+  
+   if (nm<6)
+   {
+       min = min + x;
+       max = max + x;
+   }
+   else 
+   {
+       min = min - x;
+       max = max - x;
+   }
 
-    nm++;
+   nm++;
 }
 
 Dictionary<string, double> avgTemp = AvgTemp(temperature);
 
 foreach (var m in avgTemp)
 {
-    Console.Write(m.Key + ": ");
-    Console.WriteLine(m.Value);
+   Console.Write(m.Key + ": ");
+   Console.WriteLine(m.Value);
 } 

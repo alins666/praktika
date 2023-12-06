@@ -52,16 +52,50 @@ StreamWriter writer = new StreamWriter("nums.txt", false);
 writer.Write(allNums);
 writer.Close();*/
 
-/*string[] height  = File.ReadAllLines("nnn.txt");
-string[] num = height [0].Split(' ');
-int max = Convert.ToInt32(0);
-int min = Convert.ToInt32(0);
-for (int i = 1; i < num.Length; i++) // столбцы 
-{
-    for (int j = i+1; j < num.Length; j++) //деления  
-    {
-        if (height[i] > height[j])
-        {
-            max =  
-        }
-  
+/* №3
+string[] num = File.ReadAllLines("xxx.txt")[0].Split(',');
+int[] height = new int[num.Length]; 
+int maxS = 0; 
+int a = 0; 
+int b = 0; 
+for (int i = 0; i < num.Length; i++) 
+{ 
+    height[i] = Convert.ToInt32(num[i]); 
+} 
+ 
+for (int i = 0; i < num.Length; i++) 
+{ 
+    for (int j = 0; j < num.Length; j++) 
+    { 
+        int minHeight = 0; 
+        if (height[i] < height[j]) 
+        { 
+            minHeight = height[i]; 
+        } 
+        else 
+        { 
+            minHeight = height[j]; 
+        } 
+ 
+        int dist; 
+        if (i > j) 
+        { 
+            dist = i - j; 
+        } 
+        else 
+        { 
+            dist = j - i; 
+        } 
+ 
+        int S = dist * minHeight; 
+        if (maxS < S) 
+        { 
+            maxS = S; 
+            a = i + 1; 
+            b = j + 1; 
+        } 
+    } 
+} 
+ 
+Console.WriteLine($"{a},{b}"); 
+Console.WriteLine($"{maxS} максимальная площадь");*/ 
