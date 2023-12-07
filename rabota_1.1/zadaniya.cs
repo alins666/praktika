@@ -1,4 +1,4 @@
-﻿/* №1
+﻿/*№1
 int [] Array = new int[10];
 Random rand = new Random();
 for (int i = 0; i<10; i++)
@@ -17,7 +17,7 @@ for (int i = 0; i<10; i++)
 Console.WriteLine($"\n {minEmI}");
 */
 
-/* №2 
+/*№2
 List<int> nums = new List<int>();
 Console.WriteLine("Введите числа (для завершения введите 0)");
 int num = Convert.ToInt32(Console.ReadLine());
@@ -34,10 +34,9 @@ while (num != 0)
 int avg = sum / nums.Count;
 Console.WriteLine(sum);
 Console.WriteLine(m);
-Console.WriteLine(avg);
-*/
+Console.WriteLine(avg);*/
 
-/* №3
+/*№3
 List<string> s = new List<string>(); 
 Console.WriteLine("Введите слова (для завершения введите Enter)"); 
 string str = Console.ReadLine(); 
@@ -57,10 +56,10 @@ while (str != "")
     }
     str = Console.ReadLine(); 
 } 
-Console.WriteLine(korotkoe);
-*/
+Console.WriteLine($"Самый короткий элемент: {korotkoe}");
+Console.WriteLine($"Самый длинный элемент: {dlinoe}");*/
 
-/* №4
+/*№4
 namespace ConsoleApp1;
 
 public class Program 
@@ -84,10 +83,9 @@ public class Program
         }
     }
 }
-
 */
 
-/* №5
+/*№5
 Console.WriteLine("Введите текст: "); 
 string str = Console.ReadLine(); 
 int probel = 1; 

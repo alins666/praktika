@@ -1,4 +1,4 @@
-﻿/* №1
+﻿/*№1
  using System.Collections;
 namespace ConsoleApp1;
 public class Program 
@@ -20,7 +20,7 @@ public class Program
     }
 } */
 
-/* №2 
+/*№2
 namespace ConsoleApp1;
 public class Program 
 {
@@ -41,7 +41,7 @@ public class Program
     }
 } */
 
-/* №3
+/*№3
 using System.Collections;
 namespace ConsoleApp1;
 public class Program
@@ -124,11 +124,11 @@ Array.Sort(avg);
 
 foreach (var m in avg)
 {
-   Console.WriteLine(m);
+    Console.WriteLine(m);
 }*/
 
-/* №5 
- 
+
+ /*№5
  static Dictionary<string, double> AvgTemp(Dictionary<string, int[]> temps)
  
 {
@@ -213,4 +213,4 @@ foreach (var m in avgTemp)
 {
    Console.Write(m.Key + ": ");
    Console.WriteLine(m.Value);
-} 
+} */
