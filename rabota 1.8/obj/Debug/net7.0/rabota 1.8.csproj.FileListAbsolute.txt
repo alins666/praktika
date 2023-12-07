@@ -1,0 +1,14 @@
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\bin\Debug\net7.0\rabota 1.8.exe
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\bin\Debug\net7.0\rabota 1.8.deps.json
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\bin\Debug\net7.0\rabota 1.8.runtimeconfig.json
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\bin\Debug\net7.0\rabota 1.8.dll
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\bin\Debug\net7.0\rabota 1.8.pdb
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\obj\Debug\net7.0\rabota 1.8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\obj\Debug\net7.0\rabota 1.8.AssemblyInfoInputs.cache
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\obj\Debug\net7.0\rabota 1.8.AssemblyInfo.cs
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\obj\Debug\net7.0\rabota 1.8.csproj.CoreCompileInputs.cache
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\obj\Debug\net7.0\rabota 1.8.dll
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\obj\Debug\net7.0\refint\rabota 1.8.dll
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\obj\Debug\net7.0\rabota 1.8.pdb
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\obj\Debug\net7.0\rabota 1.8.genruntimeconfig.cache
+C:\Users\gr622_haara\RiderProjects\praktika\rabota 1.8\obj\Debug\net7.0\ref\rabota 1.8.dll

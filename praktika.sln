@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabota 1.5", "rabota 1.5\ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabota 1.6", "rabota 1.6\rabota 1.6.csproj", "{DB684457-100F-4272-A046-FF5FE1F90922}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabota 1.8", "rabota 1.8\rabota 1.8.csproj", "{6FB2D1C7-B09E-4BEE-91D2-AF2CB31CCE19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{DB684457-100F-4272-A046-FF5FE1F90922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB684457-100F-4272-A046-FF5FE1F90922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB684457-100F-4272-A046-FF5FE1F90922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB2D1C7-B09E-4BEE-91D2-AF2CB31CCE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB2D1C7-B09E-4BEE-91D2-AF2CB31CCE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB2D1C7-B09E-4BEE-91D2-AF2CB31CCE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB2D1C7-B09E-4BEE-91D2-AF2CB31CCE19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
